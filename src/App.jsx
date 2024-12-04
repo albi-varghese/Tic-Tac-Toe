@@ -1,5 +1,5 @@
 import React from 'react';
-import Board from './components/Board';
+import Board from './Components/Board';
 import './App.css'; // Optional for general app-wide styling
 
 function App() {
