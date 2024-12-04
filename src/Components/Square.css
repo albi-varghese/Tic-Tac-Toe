@@ -1,0 +1,31 @@
+.square {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #333;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .square:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+  }
+  
+  .square.X {
+    color: #e63946;
+  }
+  
+  .square.O {
+    color: #457b9d;
+  }
+  
+  .winning-square {
+    background-color: #a8dadc;
+    border-color: #1d3557;
+  }
+  
